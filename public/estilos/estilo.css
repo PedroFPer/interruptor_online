@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+body{
+    padding: 0%;
+    margin: 0%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header , footer{
+    width: 100%;
+    height: auto;
+
+    background-color: #1b3962;
+    text-align: center;
+}
+
+header , footer h1, h2{
+    color: white;
+}
+
+main{
+    width: 50%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
+}
+
+main button{
+    width: 100%;
+    height: auto;
+
+    margin: 5%;
+
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+main figure{
+    width: 100%;
+    height: auto;
+
+    margin: 0%;
+}
+
+main img{
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+    
+
+@media (max-width: 768px) {
+    main{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 992px) and (min-width: 768px){
+    main{
+        width: 70%;
+    }
+}
