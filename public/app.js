@@ -1,16 +1,16 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
 import { getDatabase, ref, get, set } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-database.js";
 
-const firebaseConfig = {
-    apiKey: "AIzaSyBWKZR64wHisHvc5h0y6XDzq6EjuJ4Rbf0",
-    authDomain: "interruptoronline.firebaseapp.com",
-    databaseURL: "https://interruptoronline-default-rtdb.firebaseio.com",
-    projectId: "interruptoronline",
-    storageBucket: "interruptoronline.appspot.com",
-    messagingSenderId: "1033486886017",
-    appId: "1:1033486886017:web:1b690601f57d4443c41980",
-    measurementId: "G-WC3X1DKTF6"
-};
+    const firebaseConfig = {
+        apiKey: "AIzaSyBWKZR64wHisHvc5h0y6XDzq6EjuJ4Rbf0",
+        authDomain: "interruptoronline.firebaseapp.com",
+        databaseURL: "https://interruptoronline-default-rtdb.firebaseio.com",
+        projectId: "interruptoronline",
+        storageBucket: "interruptoronline.appspot.com",
+        messagingSenderId: "1033486886017",
+        appId: "1:1033486886017:web:1b690601f57d4443c41980",
+        measurementId: "G-WC3X1DKTF6"
+    };
 
 
 const app = initializeApp(firebaseConfig);
